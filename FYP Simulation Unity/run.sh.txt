@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Starting PPO inference server..."
+python3 UNITY_inference_server.py &
+
+sleep 1
+
+echo "Launching Unity simulation..."
+chmod +x FYP_Simulation_UNITY.x86_64
+./FYP_Simulation_UNITY.x86_64
