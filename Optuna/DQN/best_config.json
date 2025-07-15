@@ -1,0 +1,12 @@
+{
+    "learning_rate": 6.016590394285251e-05,
+    "buffer_size": 50000,
+    "batch_size": 128,
+    "train_freq": 8,
+    "exploration_fraction": 0.2380419892340962,
+    "exploration_final_eps": 0.06264927558165834,
+    "net_arch": [
+        256,
+        256
+    ]
+}

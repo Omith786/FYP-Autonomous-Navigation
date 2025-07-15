@@ -1,0 +1,16 @@
+For DQN and A2C , the file name are a bit different ("until_stage") , and that's
+because those were the first two models I trained and at the time the script was
+programmed to save it as that. So those files were trained with the default parameters. 
+But once I realised that once I'd have to train multiple models it would get difficult 
+to track the different models so I changed the naming style to have the timestamps in them. 
+I did this from the PPO onwards.
+
+For all the files the stage 4 is the final fully trained model.
+
+For DQN and A2C , the stage 4 Optuna is their best model, while for PPO it is the pruned file,
+which works the same as optuna stage 4 but the file size is lighter.
+
+I've only put the models that are the default and the models that are with optuna, adding everything
+such as from all the test runs from manual tuning and other coding changes, would have made this folder way too cluttered.
+
+I've also put all the stage 4 files in the new folder.
